@@ -44,4 +44,9 @@ for(member of membersTeam) {
   console.log(member.name)
   console.log(member.role)
   console.log(member.photo)
+
+  ul.innerHTML += `<li> Name ${member.name} <br>
+  Role ${member.role} <br>
+  Photo ${member.photo}</li>`
 }
+
