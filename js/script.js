@@ -47,6 +47,6 @@ for(member of membersTeam) {
 
   ul.innerHTML += `<li> Name ${member.name} <br>
   Role ${member.role} <br>
-  Photo ${member.photo}</li>`
+  <img src="../img/${member.photo}" alt=""></li>`
 }
 
