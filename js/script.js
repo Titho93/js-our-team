@@ -39,4 +39,9 @@ const membersTeam = [
 
 const ul = document.querySelector('ul');
 
-for(member )
+for(member of membersTeam) {
+  console.log(member)
+  console.log(member.name)
+  console.log(member.role)
+  console.log(member.photo)
+}
