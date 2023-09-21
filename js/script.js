@@ -45,7 +45,7 @@ for(member of membersTeam) {
   console.log(member.role)
   console.log(member.photo)
 
-  cards.innerHTML += `<div class= card> <img src="../img/${member.photo}" alt=""> ${member.name} <br>
+  cards.innerHTML += `<div class= card> <img src="img/${member.photo}" alt=""> ${member.name} <br>
   ${member.role} <br>
   </div>`
 }
