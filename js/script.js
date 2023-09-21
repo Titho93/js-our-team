@@ -37,7 +37,7 @@ const membersTeam = [
   }
 ]
 
-const ul = document.querySelector('ul');
+const cards = document.querySelector('.cards');
 
 for(member of membersTeam) {
   console.log(member)
@@ -45,8 +45,8 @@ for(member of membersTeam) {
   console.log(member.role)
   console.log(member.photo)
 
-  ul.innerHTML += `<li> Name ${member.name} <br>
-  Role ${member.role} <br>
-  <img src="../img/${member.photo}" alt=""></li>`
+  cards.innerHTML += `<div class= card> <img src="../img/${member.photo}" alt=""> ${member.name} <br>
+  ${member.role} <br>
+  </div>`
 }
 

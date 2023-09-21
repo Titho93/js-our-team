@@ -4,3 +4,30 @@
   box-sizing: border-box;
 }
 
+.text {
+  width: 600px;
+  margin: 0 auto;
+}
+
+h5 {
+  text-align: center;
+  padding-top: 50px;
+}
+
+.text p {
+  text-align: center;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  width: 350px;
+  margin: 20px;
+  text-align: center;
+  padding-bottom: 20px;
+  line-height: 25px;
+}
